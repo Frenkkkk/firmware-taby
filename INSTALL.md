@@ -283,3 +283,15 @@ create a replacement MCP server as part of firmware installation. As checked on
 2026-09-05, the TRIIIS-LABS/app-taby V4 development app does not expose this MCP
 server yet; the earlier Hey Taby app implements it. Firmware installation and
 direct USB animation checks still work independently of that app feature.
+
+## Quick troubleshooting
+
+| Problem | Where to look |
+|---|---|
+| Python isn't recognised | Step 2: Install ESP32 communication tools |
+| Computer doesn't detect the board | Step 2: USB drivers and permissions |
+| Board won't enter flashing mode | Step 4: BOOT and reset instructions |
+| Screen stays blank after flashing | Step 4: Blank display troubleshooting |
+| Device won't connect to the desktop app | Step 5: Using Taby |
+
+When reporting an issue, include your operating system, board model and revision, Python version, and any error messages. Never share private keys, tokens, or personal logs.
